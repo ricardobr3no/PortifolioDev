@@ -10,18 +10,16 @@
   <main>
     <div class="conteudo">
       <div class="conteudo_paragrafos">
-        <h1>Ricardo <span style="color:var(--fonte-color-2)">Breno</span></h1>
+        <h1>Ricardo <span style="color:var(--fonte-color-2)">Aguiar</span></h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam
-          sed quas blanditiis laboriosam corporis, accusantium, nihil nostrum
-          sunt quo ipsam voluptate. Nihil asperiores et dicta eius similique
-          voluptas dolores.
+          Olá! Sou desenvolvedor backend e graduando em C&T, apaixonado por
+          tecnologia e sempre em busca de novos desafios. Tenho experiência em
+          diversas tecnologias, incluindo Python, C, Node.js e MySQL.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam
-          sed quas blanditiis laboriosam corporis, accusantium, nihil nostrum
-          sunt quo ipsam voluptate. Nihil asperiores et dicta eius similique
-          voluptas dolores.
+          Meu objetivo é contribuir para projetos inovadores e desafiadores,
+          ajudando a criar soluções eficientes e escaláveis que impactem
+          positivamente a vida das pessoas.
         </p>
         <Redes />
       </div>
@@ -56,6 +54,9 @@
     background-color: var(--background-color-1);
     background-blend-mode: color;
   }
+  p {
+    text-align: start;
+  }
   main {
     opacity: 1;
     height: 100vh;
@@ -72,7 +73,7 @@
     border-radius: 12px;
   }
   .conteudo_paragrafos {
-    max-width: 500px;
+    max-width: 600px;
     font-family: var(--fonte-secundaria);
     font-size: 22px;
   }

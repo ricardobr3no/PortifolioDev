@@ -1,5 +1,5 @@
 <script>
-  let title = "nome do projeto";
+  export let title = "nome do projeto";
   // let description = "Esta é uma descrição curta sobre o cartão.";
   export let imageUrl = "https://placehold.co/300x200";
   export let source = "/";

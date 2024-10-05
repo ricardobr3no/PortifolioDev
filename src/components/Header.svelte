@@ -27,13 +27,17 @@
     align-items: center;
     justify-content: space-around;
     /* background-color: orange; */
-    height: 80px;
   }
   .navbar_buttons {
+    margin-top: 10px;
     /* background-color: orange; */
     display: flex;
     justify-content: space-around;
     width: 550px;
+    height: 50px;
+    background-color: var(--background-color-2);
+    align-items: center;
+    border-radius: 26px;
   }
 
   .navbar_buttons_item {

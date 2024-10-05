@@ -13,12 +13,13 @@
         <h1>
           Minhas <span style="color:var(--fonte-color-2)">Habilidades</span>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam
-          sed quas blanditiis laboriosam corporis, accusantium, nihil nostrum
-          sunt quo ipsam voluptate. Nihil asperiores et dicta eius similique
-          voluptas dolores.
-        </p>
+        <ul>
+          <li>Desenvolvedor backend pelo INOVA MARANHÃO</li>
+          <li>Graduando de C&T na UFMA</li>
+          <li>Tecnico em Eletrônica no IFMA</li>
+          <!-- <li>Tecnico em eletronica pelo IFMA</li> -->
+        </ul>
+
         <div class="conteudo_certificados_container">
           <h3>Meus Certificados</h3>
           <a href="/">
@@ -74,7 +75,7 @@
     border-radius: 12px;
   }
   .conteudo_paragrafos {
-    max-width: 500px;
+    max-width: 600px;
     font-family: var(--fonte-secundaria);
     font-size: 22px;
   }

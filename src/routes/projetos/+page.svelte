@@ -13,10 +13,9 @@
           Meus <span style="color:var(--fonte-color-2)">Projetos</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam
-          sed quas blanditiis laboriosam corporis, accusantium, nihil nostrum
-          sunt quo ipsam voluptate. Nihil asperiores et dicta eius similique
-          voluptas dolores.
+          Desenvolvedor backend com forte base em JavaScript e Python. Atuo no
+          desenvolvimento de APIs RESTful e integração de sistemas. Abaixo,
+          apresento alguns dos projetos que contribui ativamente.
         </p>
       </div>
       <div class="conteudo_projetos">
