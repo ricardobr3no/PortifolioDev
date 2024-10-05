@@ -18,7 +18,7 @@
     flex-direction: column;
     width: 300px;
     height: 300px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,9 @@
   }
   .card img {
     border-radius: 20px;
+    /* object-fit: scale-down; */
+    height: 200px;
+    width: 300px;
   }
 
   .card:hover {

@@ -5,11 +5,14 @@
 <div class="conteudo_redes">
   <h3>Minhas Redes</h3>
   <div class="conteudo_redes_container">
-    <a href="/" class="conteudo_redes_item">
+    <a href="https://github.com/ricardobr3no" class="conteudo_redes_item">
       <Github />
       <span>Github </span>
     </a>
-    <a href="/" class="conteudo_redes_item">
+    <a
+      href="https://www.linkedin.com/in/ricardobreno/"
+      class="conteudo_redes_item"
+    >
       <Linkedin />
       <span>Linkedin </span>
     </a>

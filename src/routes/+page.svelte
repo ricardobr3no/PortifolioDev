@@ -2,7 +2,7 @@
   import Header from "../components/Header.svelte";
   import Footer from "../components/Footer.svelte";
   import Redes from "../components/Redes.svelte";
-  import foto from "../assets/greyhound-dog-with-towel-after-bath.jpg";
+  import foto from "../assets/minhaFoto.jpeg";
 </script>
 
 <div class="background">
@@ -87,7 +87,7 @@
     position: relative;
   }
   .conteudo_imagem img {
-    background-color: red;
+    /* background-color: red; */
     border-radius: 400px;
     position: absolute;
     width: 250px;

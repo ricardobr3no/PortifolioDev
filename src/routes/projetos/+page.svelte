@@ -2,6 +2,9 @@
   import Header from "../../components/Header.svelte";
   import Footer from "../../components/Footer.svelte";
   import Card from "../../components/Card.svelte";
+
+  import imagemExploraMaranhao from "../../assets/screencapture-desafio-v-explora-maranhao-vercel-app-2024-10-05-19_00_46.png";
+  import imagemShooter2D from "../../assets/pygame.png";
 </script>
 
 <div class="background">
@@ -19,9 +22,17 @@
         </p>
       </div>
       <div class="conteudo_projetos">
-        <Card />
-        <Card />
-        <Card />
+        <Card
+          title="explora-maranhão"
+          imageUrl={imagemExploraMaranhao}
+          source="https://github.com/kauanguilhermesantos/desafio-v-explora-maranhao"
+        />
+        <Card
+          title="shooter2D-pygame"
+          imageUrl={imagemShooter2D}
+          source="https://github.com/ricardobr3no/space-shooter-pygame"
+        />
+        <!-- <Card /> -->
       </div>
     </div>
   </main>
