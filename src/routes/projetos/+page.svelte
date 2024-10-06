@@ -76,6 +76,7 @@
     color: var(--fonte-color-1);
     align-items: center;
     border-radius: 12px;
+    margin-left: 5%;
   }
   .conteudo_paragrafos {
     font-family: var(--fonte-secundaria);
@@ -98,7 +99,6 @@
       text-align: center;
     }
     .conteudo {
-      margin-left: 5%;
     }
     .conteudo_projetos {
       flex-direction: column;
