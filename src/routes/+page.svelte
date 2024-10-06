@@ -84,6 +84,7 @@
   .conteudo_imagem {
     scale: 1.4;
     margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
   }
   .conteudo_imagem img {
@@ -99,5 +100,19 @@
     border-radius: 400px;
     width: 260px;
     height: 260px;
+  }
+  /* responsividade */
+  @media (max-width: 800px) {
+    .conteudo {
+      flex-direction: column-reverse;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    .conteudo_paragrafos p {
+      padding-left: 7%;
+      padding-right: 5%;
+    }
   }
 </style>

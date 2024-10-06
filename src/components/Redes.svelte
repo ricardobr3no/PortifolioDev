@@ -63,4 +63,17 @@
   .conteudo_redes_item:hover {
     background-color: var(--background-color-2);
   }
+  /* responsividade */
+  @media (max-width: 800px) {
+    .conteudo_redes_container {
+      flex-direction: column;
+      height: 300px;
+      justify-content: space-around;
+    }
+
+    .conteudo_redes_item {
+      width: 60%;
+      height: 70px;
+    }
+  }
 </style>

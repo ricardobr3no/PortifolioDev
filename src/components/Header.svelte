@@ -20,6 +20,7 @@
     </div>
   </nav>
 </header>
+*/
 
 <style>
   .navbar {
@@ -58,5 +59,14 @@
   }
   .navbar_buttons_item span {
     margin-left: 10px;
+  }
+  /* responsividade */
+  @media (max-width: 800px) {
+    .navbar_buttons {
+      flex-direction: column;
+      width: 100%;
+      height: 150px;
+      /* background-color: var(--background-color-1); */
+    }
   }
 </style>

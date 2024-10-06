@@ -26,5 +26,6 @@
     font-family: var(--fonte-secundaria);
     font-size: 20px;
     padding-top: 70px;
+    margin-top: 200px;
   }
 </style>

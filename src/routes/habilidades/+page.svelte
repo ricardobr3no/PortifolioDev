@@ -106,6 +106,8 @@
     scale: 1.4;
     margin-top: 150px;
     position: relative;
+    margin-bottom: 80px;
+    margin-top: 80px;
   }
   .conteudo_imagem img {
     /* background-color: red; */
@@ -120,5 +122,21 @@
     border-radius: 400px;
     width: 260px;
     height: 260px;
+  }
+  /* responsividade */
+  @media (max-width: 800px) {
+    .conteudo {
+      flex-direction: column-reverse;
+    }
+    h1 {
+      text-align: center;
+    }
+    .conteudo_certificados_container {
+      width: 100%;
+    }
+    .conteudo_certificados_container a {
+      height: 70px;
+      width: 60%;
+    }
   }
 </style>
