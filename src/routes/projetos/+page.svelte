@@ -63,7 +63,7 @@
     background-blend-mode: color;
   }
   main {
-    height: 100vh;
+    min-height: 100vh;
     /* margin-left: 150px; */
     /* margin-right: 150px; */
     /* justify-content: space-around; */
@@ -80,8 +80,8 @@
   }
   .conteudo_paragrafos {
     font-family: var(--fonte-secundaria);
-    font-size: 22px;
-    margin-bottom: 40px;
+    font-size: 1.375rem;
+    margin-bottom: 2.5rem;
   }
   .conteudo_paragrafos h1 {
     font-family: var(--fonte-primaria);
@@ -94,11 +94,9 @@
     font-family: var(--fonte-primaria);
   }
   /* responsividade */
-  @media (max-width: 800px) {
+  @media (max-width: 56rem) {
     h1 {
       text-align: center;
-    }
-    .conteudo {
     }
     .conteudo_projetos {
       flex-direction: column;

@@ -29,13 +29,13 @@
     /* background-color: orange; */
   }
   .navbar_buttons {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     /* background-color: orange; */
     display: flex;
     justify-content: space-around;
-    width: 550px;
-    height: 50px;
-    background-color: var(--background-color-2);
+    width: 34.375rem;
+    height: 3.125rem;
+    /* background-color: var(--background-color-2); */
     align-items: center;
     border-radius: 26px;
   }
@@ -45,26 +45,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 30px;
+    width: 19rem;
+    height: 2rem;
     /* background-color: white; */
     border-radius: 6px;
     text-decoration: none;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .navbar_buttons_item:hover {
     text-decoration: underline 2px;
   }
   .navbar_buttons_item span {
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   /* responsividade */
-  @media (max-width: 800px) {
+  @media (max-width: 56rem) {
     .navbar_buttons {
       flex-direction: column;
       width: 100%;
-      height: 150px;
+      height: 9rem;
       /* background-color: var(--background-color-1); */
     }
   }

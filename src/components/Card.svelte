@@ -16,10 +16,10 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    width: 18rem;
+    height: 18rem;
     /* border: 1px solid #ccc; */
-    padding: 10px;
+    padding: 0.625rem;
     justify-content: center;
     align-items: center;
     color: var(--fonte-color-2);
@@ -29,8 +29,8 @@
   .card img {
     border-radius: 20px;
     /* object-fit: scale-down; */
-    height: 200px;
-    width: 300px;
+    height: 12.5rem;
+    width: 18rem;
   }
 
   .card:hover {

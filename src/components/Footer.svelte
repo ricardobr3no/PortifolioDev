@@ -13,10 +13,10 @@
   .footer_logo {
     scale: 0.6;
     position: relative;
-    translate: 0px -30px;
+    translate: 0px -2rem;
   }
   footer {
-    height: 150px;
+    height: 9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +24,9 @@
     background-color: var(--background-color-2);
     color: white;
     font-family: var(--fonte-secundaria);
-    font-size: 20px;
-    padding-top: 70px;
-    margin-top: 200px;
+    font-size: 1.25rem;
+    padding-top: 4rem;
+    /* margin-top: 12rem; */
+    /* margin-top: auto; */
   }
 </style>

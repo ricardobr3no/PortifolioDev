@@ -24,7 +24,7 @@
           <h3>Meus Certificados</h3>
           <a href="/">
             <Paperclip />
-            Certificados
+            <span>Certificados</span>
           </a>
         </div>
       </div>
@@ -62,7 +62,7 @@
   }
   main {
     opacity: 1;
-    height: 100vh;
+    min-height: 100vh;
     /* margin: 50px; */
     justify-content: space-around;
   }
@@ -75,9 +75,9 @@
     border-radius: 12px;
   }
   .conteudo_paragrafos {
-    max-width: 600px;
+    max-width: 37.5rem;
     font-family: var(--fonte-secundaria);
-    font-size: 22px;
+    font-size: 1.4rem;
   }
   .conteudo_paragrafos h1 {
     font-family: var(--fonte-primaria);
@@ -89,14 +89,17 @@
     flex-direction: column;
     align-items: center;
   }
+  .conteudo_certificados_container span {
+    margin-left: 0.625rem;
+  }
   .conteudo_certificados_container a {
     background-color: var(--background-color-1);
     border: solid 2px var(--fonte-color-2);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 180px;
-    height: 45px;
+    justify-content: center;
+    width: 11.25rem;
+    height: 3rem;
     border-radius: 6px;
   }
   .conteudo_certificados_container a:hover {
@@ -104,38 +107,43 @@
   }
   .conteudo_imagem {
     scale: 1.4;
-    margin-top: 150px;
+    margin-top: 9.4rem;
     position: relative;
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
   }
   .conteudo_imagem img {
     /* background-color: red; */
-    border-radius: 400px;
+    border-radius: 50rem;
     position: absolute;
-    width: 250px;
-    translate: -0px 7px;
+    width: 15.6rem;
+    translate: -0px 0.45rem;
   }
   .conteudo_imagem .circle {
     /* background-color: #b641e0;#9B53B5 */
     background-color: var(--fonte-color-2);
-    border-radius: 400px;
-    width: 260px;
-    height: 260px;
+    border-radius: 25rem;
+    width: 16.25rem;
+    height: 16.25rem;
   }
   /* responsividade */
-  @media (max-width: 800px) {
+  @media (max-width: 56rem) {
     .conteudo {
       flex-direction: column-reverse;
+      flex-grow: 1;
     }
     h1 {
       text-align: center;
     }
+    .conteudo_imagem {
+      scale: 1;
+    }
+
     .conteudo_certificados_container {
       width: 100%;
     }
     .conteudo_certificados_container a {
-      height: 70px;
+      height: 4.4rem;
       width: 60%;
     }
   }

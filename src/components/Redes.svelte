@@ -45,8 +45,8 @@
     align-items: center;
     justify-content: center;
 
-    width: 130px;
-    height: 45px;
+    width: 8rem;
+    height: 3rem;
     background-color: var(background-color-1);
     color: var(--fonte-color-2);
     border-radius: 6px;
@@ -56,7 +56,7 @@
     font-family: var(--fonte-primaria);
   }
   .conteudo_redes_item span {
-    margin-left: 10px;
+    margin-left: 0.625rem;
     color: white;
   }
 
@@ -64,16 +64,16 @@
     background-color: var(--background-color-2);
   }
   /* responsividade */
-  @media (max-width: 800px) {
+  @media (max-width: 50rem) {
     .conteudo_redes_container {
       flex-direction: column;
-      height: 300px;
+      height: 19rem;
       justify-content: space-around;
     }
 
     .conteudo_redes_item {
       width: 60%;
-      height: 70px;
+      height: 4rem;
     }
   }
 </style>
